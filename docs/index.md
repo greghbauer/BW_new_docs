@@ -1,4 +1,3 @@
-Now an index file in the docs directory
+body text in the index.md file
 
-# we'll see if this does anything.
-
+# Header #1 in the index.md file.
