@@ -9,7 +9,8 @@ If you're using PrgEnv-intel with OpenMP, please see https://bluewaters.ncsa.ill
 
 XE nodes only, packing 1 MPI task per integer core (2 per bulldozer core)
 
-`#!/bin/bash
+```
+#!/bin/bash
 #IMPORTANT! If above shell isn't the same as your account default shell, add
 # the "-i" option to the above line to be able to use "module" commands. 
 
@@ -62,6 +63,6 @@ XE nodes only, packing 1 MPI task per integer core (2 per bulldozer core)
 aprun -n 65536 ./app.exe  < in > out.$PBS_JOBID
 
 ### For more information see the man page for aprun
-`
+```
 
 Using XE nodes with MPI and OpenMP (hybrid MPI + OpenMP)
