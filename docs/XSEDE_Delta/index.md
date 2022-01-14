@@ -73,51 +73,38 @@ Delta is designed to help applications transition from CPU-only to GPU or hybrid
 
 The Delta compute ecosystem is composed of 5 node types: dual-socket CPU-only compute nodes, single socket 4-way NVIDIA A100 GPU compute nodes, single socket 4-way NVIDIA A40 GPU compute nodes, dual-socket 8-way NVIDIA A100 GPU compute nodes, and a single socket 8-way AMD MI100 GPU compute nodes. The CPU-only and 4-way GPU nodes have 256 GB of RAM per node while the 8-way GPU nodes have 2 TB of RAM. The CPU-only node has 0.8 TB of local storage while all GPU nodes have 1.6 TB of local storage.
 
-### Table. CPU Compute Node Specifications
+### Table. CPU Compute Node Specifications {#DeltaXSEDEDocumentation-Table.CPUComputeNodeSpecifications}
 
-| Specification | Value |
-| ------------- | ----- |
-| Number of nodes | 124 |
+::: table-wrap
++------------------------------+------------------------------+
+| ::: tablesorter-header-inner | ::: tablesorter-header-inner |
+| Specification                | Value                        |
+| :::                          | :::                          |
++==============================+==============================+
+| Sockets per node             | 2                            |
++------------------------------+------------------------------+
+| RAM (GB)                     | 256                          |
++------------------------------+------------------------------+
+| Number of nodes              | 124                          |
++------------------------------+------------------------------+
+| Local storage (TB)           | 0.8 TB                       |
++------------------------------+------------------------------+
+| Hardware threads per node    | 128                          |
++------------------------------+------------------------------+
+| Hardware threads per core    | 1                            |
++------------------------------+------------------------------+
+| CPU                          | AMD Milan (PCIe Gen4)        |
++------------------------------+------------------------------+
+| Cores per socket             | 64                           |
++------------------------------+------------------------------+
+| Cores per node               | 128                          |
++------------------------------+------------------------------+
+| Clock rate (GHz)             | \~ 2.45                      |
++------------------------------+------------------------------+
+| Cache (MB)Â L1/L2/L3          | Â 2/32/256                    |
++------------------------------+------------------------------+
+:::
 
-CPU
-
-AMD Milan (PCIe Gen4)
-
-Sockets per node
-
-2
-
-Cores per socket
-
-64
-
-Cores per node
-
-128
-
-Hardware threads per core
-
-1
-
-Hardware threads per node
-
-128
-
-Clock rate (GHz)
-
-~ 2.45
-
-RAM (GB)
-
-256
-
-Cache (MB) L1/L2/L3
-
- 2/32/256
-
-Local storage (TB)
-
-0.8 TB
 
 ### Table. 4-way NVIDIA A40 GPU Compute Node Specifications 
 
