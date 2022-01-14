@@ -75,13 +75,9 @@ The Delta compute ecosystem is composed of 5 node types: dual-socket CPU-only co
 
 ### Table. CPU Compute Node Specifications
 
-Specification
-
-Value
-
-Number of nodes
-
-124
+| Specification | Value |
+| ------------- | ----- |
+| Number of nodes | 124 |
 
 CPU
 
