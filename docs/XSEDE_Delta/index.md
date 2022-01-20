@@ -45,6 +45,7 @@ computation, data movement, science workflow support, and science
 gateway support toolkits.
 
 ![Colorful Triangle](./NCSA_Delta_image.png) 
+<img src="./NCSA_Delta_image.png" alt="Colorful triangle" width="200"/>
 
 **Figure 1. Delta System**
 
