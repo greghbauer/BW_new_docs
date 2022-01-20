@@ -977,7 +977,7 @@ Table. Delta Production Queues
 </tbody>
 </table>
 
-### Node Policies
+### **Node Policies**
 
 Node-sharing will supported
 
@@ -1064,7 +1064,7 @@ for options.
 
   
 
-#### squeue/scontrol/sinfo
+#### **squeue/scontrol/sinfo**
 
 Commands that display batch job and partition information .
 
