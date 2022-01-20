@@ -486,8 +486,8 @@ Note:  Users of Delta have access to 3 file systems at the time of
 system launch, a fourth relaxed-POSIX file system will be made available
 at a later date. 
 
-***Delta*  
-**The Delta storage infrastructure provides users with their $HOME and
+### *Delta*  
+The *Delta* storage infrastructure provides users with their $HOME and
 $SCRATCH areas.  These file systems are mounted across all Delta systems
 and are accessible on the Delta DTN Endpoints.  The aggregate
 performance of this subsystem is 70GB/s and it has 6PB of usable space.
