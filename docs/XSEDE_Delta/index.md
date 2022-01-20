@@ -510,7 +510,7 @@ will transition to a relax POSIX namespace file system, communications
 on that timeline will be announced as updates are available.  
 
 ### *Taiga*
-**Taiga* is NCSA’s global file system which provides users with their
+*Taiga* is NCSA’s global file system which provides users with their
 $WORK area.  This file system is mounted across all Delta systems at
 /taiga (also /taiga/nsf/delta is bind mounted at /projects) and is
 accessible on both the *Delta* and *Taiga* DTN endpoints.  For NCSA &
