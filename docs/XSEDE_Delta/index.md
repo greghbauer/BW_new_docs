@@ -635,7 +635,7 @@ OpenACC 
 
 Describe how to build software:
 
-#### **Serial**
+### Serial
 
 To build (compile and link) a serial program in Fortran, C, and C++:
 
@@ -666,7 +666,7 @@ style="text-align: center;"><span>pgfortran <em>myprog</em>.f</span><br />
 
   
 
-#### MPI
+### MPI
 
 To build (compile and link) a MPI program in Fortran, C, and C++:
 
@@ -725,7 +725,7 @@ style="text-decoration: none;">Documentation</a>)</p></td>
 
   
 
-#### OpenMP
+### OpenMP
 
 To build an OpenMP program, use the -fopenmp / -mp option:
 
@@ -754,7 +754,7 @@ style="text-align: center;"><span>flang -fopenmp <em>myprog</em>.f</span><br /
 </tbody>
 </table>
 
-#### Hybrid MPI/OpenMP
+### Hybrid MPI/OpenMP
 
 To build an MPI/OpenMP hybrid program, use the -fopenmp / -mp option
 with the MPI compiling commands:
@@ -785,7 +785,7 @@ mpicc -mp <em>myprog</em>.c</span><br />
 </tbody>
 </table>
 
-#### OpenACC
+### OpenACC
 
 To build an OpenACC program, use the -acc option and the -mp option for
 multi-threaded:
