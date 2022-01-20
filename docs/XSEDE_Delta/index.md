@@ -1,4 +1,4 @@
-# **topDelta User Guide**
+# **Delta User Guide**
 
 *Last update: January 7, 2022*
 
