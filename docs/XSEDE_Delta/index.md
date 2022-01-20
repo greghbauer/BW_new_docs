@@ -44,8 +44,7 @@ stack](https://www.xsede.org/software), including remote login, remote
 computation, data movement, science workflow support, and science
 gateway support toolkits.
 
-![Colorful Triangle](./NCSA_Delta_image.png) 
-<img src="./NCSA_Delta_image.png" alt="Colorful triangle" width="200"/>
+<img src="./NCSA_Delta_image.png" alt="Colorful triangle" width="400"/>
 
 **Figure 1. Delta System**
 
