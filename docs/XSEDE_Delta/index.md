@@ -635,7 +635,7 @@ OpenACC 
 
 Describe how to build software:
 
-#### Serial
+#### **Serial**
 
 To build (compile and link) a serial program in Fortran, C, and C++:
 
