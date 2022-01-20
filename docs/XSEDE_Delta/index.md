@@ -875,6 +875,7 @@ Equivalence</th>
 </tr>
 
 <tr class="odd">
+  <td colspan="2"></td>
 <td>Cores</td>
 <td>GPU Fraction</td>
 <td style="text-align: center;">Host Memory</td>
