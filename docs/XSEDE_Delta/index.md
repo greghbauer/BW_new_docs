@@ -879,8 +879,6 @@ Equivalence</th>
 <td>Cores</td>
 <td>GPU Fraction</td>
 <td style="text-align: center;">Host Memory</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
 </tr>
 <tr class="even">
 <td colspan="2">CPU Node</td>
