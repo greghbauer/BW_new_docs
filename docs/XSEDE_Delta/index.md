@@ -574,6 +574,8 @@ should occur</td>
 Describe access to the system
 
 -   NCSA Duo enabled multi-factor authentication
+To ssh to Delta using your local NCSA username: `ssh username@login.delta.ncsa.illinois.edu`
+
 -   available via SSO hub
 
 List and detail methods (e.g., ssh, Globus, gsissh), providing
